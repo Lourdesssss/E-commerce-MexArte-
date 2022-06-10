@@ -1,0 +1,197 @@
+.header,
+.footer {
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  height: max-content;
+}
+
+.footer {
+  height: max-content;
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo-h,
+.logo-f {
+  color: white;
+  margin: 1%;
+  font-family: 'Italiana', serif;
+}
+
+.logo-h {
+  display: flex;
+  justify-content: start;
+}
+
+.header .icon_menu {
+  color: white;
+  margin-right: 1%;
+}
+.header .icons .icon {
+  color: white;
+  margin-left: 5%;
+}
+
+.header .titulo {
+  color: white;
+  display: flex;
+  font-family: 'Italiana', serif;
+  visibility: hidden;
+}
+
+.header #buscar{
+  position: relative;
+}
+
+.header #resultado{
+  position: absolute;
+  left: 0;
+  height: max-content;
+  width: 100%;
+  z-index: 1;
+}
+
+.footer h6 {
+  color: white;
+}
+
+.header .icons {
+  display: flex;
+  justify-content: end;
+}
+
+.footer .icons-social {
+  display: flex;
+  justify-content: start;
+}
+
+.footer a , .header a{
+  margin: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover{
+  color: #ffd060;
+}
+
+.footer p {
+  color: white;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+/* END HEADER-FOOTER */
+
+
+button {
+  border: none;
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  font-family: "Open Sans";
+  border-radius: 0.5em;
+  background: #ffd060;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  margin-bottom: 20px;
+ }
+
+ ol.mt-50 {
+  padding: 0.7em 1.7em;
+  font-family: "Open Sans";
+ }
+
+ .product-price{
+  text-align: left;
+  margin-left: 40px;
+  font-family: "Open Sans";
+  color: #090909;
+ }
+ .Stock2{
+  text-align: right;
+  margin-left: 90px;
+}
+
+ .review{
+  padding:30px;
+  text-align: justify;
+ }
+
+ #titulo-obra{
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+ }
+
+ .ratings{
+  padding: 0.7em 1.7em;
+ }
+
+ .Stock{
+  /* padding: 0.7em 1.7em; */
+  text-align: left;
+  
+ }
+ .Stock1{
+   font-size: smaller;
+   display: none;
+ }
+ .clearfix {
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+ }
+
+ .image-obra-detalle{
+  margin-block: 5%;
+  margin-inline: 3%;
+  border:4px solid black;
+}
+.obra{
+  margin-top: 53px;
+  background: rgb(0,0, 0,0.3);
+  border-radius: 10px;
+  margin-left: 50px;
+  width: 450px;
+}
+
+
+@media screen and (max-width: 1080px) {
+  .footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .footer .icons-social{
+   display: flex;
+   justify-content: center;
+   margin-block-end: 5%;
+  }
+ .addToCart{
+  margin: auto;
+  margin-bottom: 20px;
+ }
+ .image-obra-detalle{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+ .obra{
+  width: 100%;
+  margin: auto;
+}
+.product-price{
+  font-size: 20px;
+}
+}

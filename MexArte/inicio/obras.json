@@ -1,0 +1,32 @@
+{
+    "images": [
+        {
+            "idObra": 1,
+            "name": "Obra número 1",
+            "price": 1200,
+            "url": "https://media.admagazine.com/photos/618a6acbcc7069ed5077ca7f/master/w_1600%2Cc_limit/68704.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."        
+        },
+        {
+            "idObra": 2,
+            "name": "Obra número 2",
+            "price": 1500,
+            "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/scf4fcb377503c035/image/i77c5a0075ae83baa/version/1418242573/image.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."        
+        },
+        {
+            "idObra": 3,
+            "name": "Obra número 3",
+            "price": 1300,
+            "url": "https://cdn.culturagenial.com/es/imagenes/las-dos-fridas-cke.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."
+        },
+        {
+            "idObra": 4,
+            "name": "Obra número 4",
+            "price": 1600,
+            "url": "https://media.timeout.com/images/103720941/750/422/image.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."        
+        }
+    ]
+}

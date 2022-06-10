@@ -1,0 +1,30 @@
+[
+        {
+            "idObra": 1,
+            "name": "Obra número 1",
+            "price": 1200,
+            "url": "https://media.admagazine.com/photos/618a6acbcc7069ed5077ca7f/master/w_1600%2Cc_limit/68704.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."        
+        },
+        {
+            "idObra": 2,
+            "name": "Obra número 2",
+            "price": 1500,
+            "url": "https://media.revistaad.es/photos/60c745c1f8ba795ce91acd92/master/w_1600%2Cc_limit/196890.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."        
+        },
+        {
+            "idObra": 3,
+            "name": "Obra número 3",
+            "price": 1300,
+            "url": "https://media.admagazine.com/photos/618a6acca9f7fab6f062307b/master/w_1600%2Cc_limit/68705.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."
+        },
+        {
+            "idObra": 4,
+            "name": "Obra número 4",
+            "price": 1600,
+            "url": "https://estaticos-cdn.elperiodico.com/clip/3aecb3cf-ce6e-4dec-8788-1922ef8b5e01_alta-libre-aspect-ratio_default_0.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."        
+        }
+    ]

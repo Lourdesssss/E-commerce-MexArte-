@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS header-footer-->
+    <link rel="stylesheet" href="style_hf.css" />
+
+    <!-- Fuentes  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Detalle de obra</title>
+
+    <style>
+      .contenedor-icono i {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="row header">
+      <div class="col-1">
+        <div class="icon_menu dropdown">
+          <a
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            ><div class="fas fa-bars"></div
+          ></a>
+          <ul
+            style="background-color: rgba(0, 0, 0, 0.808)"
+            class="dropdown-menu"
+            aria-labelledby="dropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="/artistas/artistas.html"
+                >Artistas</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/colecciones/colecciones.html"
+                >Colecciones</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3">
+        <a href="/inicio/inicio.html"><h1 class="logo-h">MexArte</h1></a>
+      </div>
+      <div class="col-5">
+        <div class="titulo justify-content-center">
+          <h2 class="">Titulo</h2>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="icons">
+          <input
+            type="text"
+            name="buscar"
+            id="buscar"
+            placeholder="Buscar..."
+          />
+          <div class="icon">
+            <a href=""><div class="fas fa-search"></div></a>
+          </div>
+          <div class="icon">
+            <a href="/Carrito de compra/carrito_compra.html"
+              ><div class="fas fa-cart-plus"></div
+            ></a>
+          </div>
+          <div class="icon dropdown">
+            <a
+              class="dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              ><div class="fas fa-user"></div
+            ></a>
+            <ul
+              style="background-color: rgba(0, 0, 0, 0.808)"
+              class="dropdown-menu"
+              aria-labelledby="dropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="/perfil/perfil.html">Perfil</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Cuenta</a></li>
+              <li>
+                <hr class="dropdown-divider" style="border: 1px solid white" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="/Ingresa/login.html"
+                  >Iniciar sesión</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN DE HEADER -->
+
+    <!-- INICIA BODY -->
+    <div class="single-product-area section-padding-100 clearfix item">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <div class="slider">
+              <img
+              class="d-block w-100 image-obra-detalle"
+              src="https://media.admagazine.com/photos/618a6acbcc7069ed5077ca7f/master/w_1600%2Cc_limit/68704.jpg"
+              alt="First slide"
+              id="image-obra-detalle"
+              style="height: 30rem; object-fit: cover;"
+            />
+            </div>
+            
+          </div>
+          <div class="col-12 col-lg-5">
+            <div class="obra">
+              <!-- Product Meta Data -->
+              <div class="product-meta-data">
+                
+
+                <h6 id="titulo-obra" style="font-family: 'Italiana', serif; font-size: x-large;
+                font-weight: 600;">LA NOCHE ESTRELLADA</h6>
+                <!-- Avaiable -->
+                <div class="row Stock align-items-center">
+                  <div class="col-5">
+                    <p class="product-price" id="product-price" style="font-size: 23px; font-weight: 1000;">
+                      $18000MXN
+                    </p>
+                  </div>
+                  <div class="col-3 Stock1" >
+                    <p class="avaibility1">
+                      <i class="fa fa-circle" style="color: #ffd060;"></i> Disponible
+                    </p>
+                  </div>
+                  <div class="col-3 Stock2" >
+                    <p class="avaibility2">
+                      <i class="fa fa-circle" style="color: red"></i> Agotado
+                    </p>
+                  </div>
+                
+                
+                </div>
+                <!-- Ratings & Review -->
+                <div class="ratings-review mb-15 d-flex align-items-center justify-content-between">
+                  
+                  <div class="review">
+                    <p id="descripcion-obra">
+                      Reseña: Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Fugit perferendis doloremque tempore illum nam
+                      temporibus quibusdam fugiat iure. In culpa officiis
+                      necessitatibus! Facere, tempore aperiam nemo velit quas
+                      beatae dignissimos.
+                    </p>
+                  </div>
+                </div>
+                <br />
+                
+              </div>
+
+              <!-- Add to Cart Form -->
+              <form class="cart clearfix">
+                <button onclick="" value="5" class="addToCart">
+                  Agregar al carrito
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN BODY -->
+
+    <div style="height: 5rem"></div>
+
+    <!-- FOOTER -->
+
+    <div class="row footer">
+      <div class="col-10 col-sm-3">
+        <div class="row">
+          <a href="/inicio/inicio.html"><h1 class="logo-f">MexArte</h1></a>
+        </div>
+
+        <div class="row">
+          <div class="icons-social">
+            <a href="http://">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="http://"> <i class="fab fa-instagram"></i> </a
+            ><a href="http://">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-sm-3">
+        <div class="row">
+          <h6><b>NOSOTROS</b></h6>
+        </div>
+        <div class="row">
+          <p>
+            <a href="/Nosotros/nosotros.html">¿Quiénes somos?</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-10 col-sm-3">
+        <div class="row">
+          <h6><b>ATENCIÓN AL CLIENTE</b></h6>
+        </div>
+        <div class="row">
+          <p><a href="/contacto/contacto.html">Contáctanos</a></p>
+        </div>
+      </div>
+      <div class="col-10 col-sm-3">
+        <div class="row">
+          <a href="/servicios/servicios.html" style="margin: 0">
+            <h6><b>SERVICIOS</b></h6>
+          </a>
+        </div>
+        <div class="row">
+          <p>
+            <a href="">Artistas</a><br /><a href="/cliente/cliente.html"
+              >Clientes</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FIN FOOTER -->
+
+    <!-- JS icons -->
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Funcionalidad "Agregar al carrito" -->
+    <script src="../Carrito de compra/editar_carrito_compra.js"></script>
+
+    <!-- JS de mi detalle_obra -->
+    <script src="detalle_obra_js.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+.carousel-item {
+  height: 45vw;
+}
+
+.carousel-item img {
+  object-fit: cover;
+}
+
+.row-obras-inicio,
+.row-artistas-inicio,
+.row-colecciones-inicio {
+  height: max-content;
+  padding-block-start: 5%;
+  padding-block-end: 5%;
+}
+
+.body-inicio h1 {
+  font-family: "Italiana", serif;
+  margin-block-end: 3%;
+}
+
+.row-obras-inicio img,
+.row-colecciones-inicio img {
+  border: 2px solid black;
+  padding: 3px;
+}
+
+.row-obras-inicio .img2-collage,
+.row-obras-inicio .img3-collage {
+  width: 90%;
+}
+
+.row-obras-inicio .img1-collage,
+.row-obras-inicio .img4-collage {
+  width: 80%;
+}
+
+.row-artistas-inicio {
+  background-color: #f5f5f5;
+}
+
+.body-inicio h5 {
+  font-weight: bold;
+  margin-block-start: 3%;
+}
+
+.row-artistas-inicio h6,
+.row-colecciones-inicio h5 {
+  margin-block-end: 10%;
+}
+
+.row-colecciones-inicio {
+  height: 100%;
+}
+
+/* CSS Animación: capa de texto */
+.row-obras-inicio figure,
+.rowSecond-colecciones-inicio figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.row-obras-inicio figure .capa-text,
+.rowSecond-colecciones-inicio figure .capa-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-obras-inicio figure:hover > .capa-text,
+.rowSecond-colecciones-inicio figure:hover > .capa-text {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* CSS Animación: escala aumentada */
+.rowSecond-artistas-inicio .contenedor-img-art:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  
+}
+
+.rowSecond-artistas-inicio .contenedor-img-art {
+  overflow: hidden;
+  width: 80%;
+  cursor: pointer;
+}
+
+.rowSecond-artistas-inicio > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#buscar{
+  position: relative;
+}
+
+#resultado{
+  position: absolute;
+  left: 0;
+  height: max-content;
+  width: 100%;
+  z-index: 1;
+}

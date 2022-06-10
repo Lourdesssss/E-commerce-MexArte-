@@ -1,0 +1,173 @@
+.header,
+.footer {
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  height: max-content;
+}
+
+.footer {
+  height: max-content;
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo-h,
+.logo-f {
+  color: white;
+  margin: 1%;
+  font-family: 'Italiana', serif;
+}
+
+.logo-h {
+  display: flex;
+  justify-content: start;
+}
+
+.header .icon_menu {
+  color: white;
+  margin-right: 1%;
+}
+.header .icons .icon {
+  color: white;
+  margin-left: 5%;
+}
+
+.header .titulo {
+  color: white;
+  display: flex;
+  font-family: 'Italiana', serif;
+  visibility: hidden;
+}
+
+.header #buscar{
+  position: relative;
+}
+
+.header #resultado{
+  position: absolute;
+  left: 0;
+  height: max-content;
+  width: 100%;
+  z-index: 1;
+}
+
+.footer h6 {
+  color: white;
+}
+
+.header .icons {
+  display: flex;
+  justify-content: end;
+}
+
+.footer .icons-social {
+  display: flex;
+  justify-content: start;
+}
+
+.footer a , .header a{
+  margin: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover{
+  color: #ffd060;
+}
+
+.footer p {
+  color: white;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+/*:::::Inicia Css de Contacto:::::*/
+body{
+  background-image: url(https://images.pexels.com/photos/1670043/pexels-photo-1670043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  font-family: 'Open Sans';
+}
+
+/*CSS del mapa*/
+#contacto-izq{
+  padding: 10px 10px;
+  width: 520px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 660px;
+  float: left;
+  background: rgb(0, 0, 0, 0.73);
+  color: white;
+  border-radius: 15px;
+}
+#contacto-izq h1{
+  margin-top: 20px;
+  font-family: 'Italiana', serif;
+  text-align: center;
+  font-size: 300%;
+  color: white;
+  margin-bottom: 20px;
+}
+#contacto-izq a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+#contacto-izq a:hover{
+  text-align: center;
+  text-decoration: none;
+  color: #FFD060;
+}
+#contacto-izq p{
+  width: 500px;
+  text-align: center;
+  margin-top: 15px;
+}
+#mapa{
+  display: flex;
+  width: 450px;
+  height: 350px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+/* ::::: Estilo responsive ::::: */
+@media screen and (max-width: 800px) {
+  .footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .footer .icons-social{
+   display: flex;
+   justify-content: center;
+   margin-block-end: 5%;
+  }
+  #contacto-izq{
+    margin-block-end: 5%;
+    width: 100%;
+  }
+  #mapa{
+    width: 100%;
+    margin-left: -10px;
+  }
+  #contacto-izq p{
+    width: 100%;
+    display: flex;
+    text-align: center;
+  }
+
+  .contacto{
+    margin-left: 23%;
+  }
+ }

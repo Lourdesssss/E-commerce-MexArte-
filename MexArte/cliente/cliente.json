@@ -1,0 +1,78 @@
+{
+    "listaCompra":
+    [
+        {
+            "nombreObra":"Cara con manos",
+            "nombreArtista": "Ricardo Ramírez",
+            "descripcion":"A través de esta creación, el artista logra representar por medio de las distintas entradas de iluminación y colores el retrato de una mujer. En ella los límites entre pintura y realidad se desdibujan.",
+            "precio":829.99,
+            "enlace": "https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947_960_720.jpg",
+            "corriente":"Hiperrealismo"
+            
+        },
+        {
+            "nombreObra":"Figuras locas",
+            "nombreArtista": "Rogelio Uz",
+            "descripcion":"Es probablemente una de las obras más trascendentes del pintor. El artista decidió utilizar una mezcla de colores, de manera que el espectador reflexione sobre la manera en la que el arte trasciende la realidad.",
+            "precio":329.99,
+            "enlace": "https://cdn.pixabay.com/photo/2016/12/15/20/21/texture-1909992_960_720.jpg",
+            "corriente":"Arte abstracto"
+        },
+        {
+            "nombreObra":"Venado quiqueto",
+            "nombreArtista": "Sol LeWitt",
+            "descripcion":"A través de las formas geométricas, la pintura se va fusionando con el espacio del lienzo, llegando a dar una noción de transformación del entorno al espectador.",
+            "precio":429.99,
+            "enlace": "https://cdn.pixabay.com/photo/2018/03/30/15/11/deer-3275594_960_720.jpg",
+            "corriente":"Cubismo"
+        },
+        {
+            "nombreObra":"Inquieta relajación",
+            "nombreArtista": "Ricardo Ramírez",
+            "descripcion":"Su extensa obra se basó en el vínculo entre el área artística y la psicoterapia. La obra busca ser expuesta de forma para que el público de su punto de vista acerca de la obra como parte de una experiencia visual.",
+            "precio":1500.00,
+            "enlace": "https://cdn.pixabay.com/photo/2021/08/31/11/58/woman-6588614_960_720.jpg",
+            "corriente":"Minimalismo"
+        },
+        {
+            "nombreObra":"Me manché",
+            "nombreArtista": "Rogelio Uz",
+            "descripcion":"Una de las obras de arte fáciles de dibujar para todo artista es su autorretrato, práctica frecuentemente hecha por todos los creadores en algún momento  de su carrera. Este retrato tiene un giro reflexivo y analítico.",
+            "precio":8000.00,
+            "enlace": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ernst_Ludwig_Kirchner_-_Fr%C3%A4nzi_in_front_of_a_Carved_Chair.jpg",
+            "corriente":"Expresionismo"
+        },
+        {
+            "nombreObra":"La mona lisa",
+            "nombreArtista": "Sol LeWitt",
+            "descripcion":"Una de las obras de arte más místeriosas del mundo. La técnica con la que fue pintada ha sido estudiada en múltiples ocasiones por los efectos ópticos en los ojos y su sonrisa vacilante. Además, ha sido sujeta a grandes polémicas, como su rapto a principios del siglo XX.",
+            "precio":2600.00,
+            "enlace": "https://cdn.pixabay.com/photo/2013/01/05/21/02/art-74050_960_720.jpg",
+            "corriente":"Renacimiento"
+        },
+        {
+            "nombreObra":"Manzana pasada",
+            "nombreArtista": "Sol LeWitt",
+            "descripcion":"La imagen de las manzanas están en armonía con las mariposas, y la temática general del cuadro gira entorno al tiempo y los sueños, hacen de este cuadro una obra de arte inspiradora.",
+            "precio":5600.00,
+            "enlace": "https://definicionesyconceptos.com/wp-content/uploads/2021/04/surrealismo2.JPG",
+            "corriente":"Surrealismo"
+        },
+        {
+            "nombreObra":"Komposition 8",
+            "nombreArtista": "Kandinsky",
+            "descripcion":"Influído por sus contemporáneos en el arte, la ciencia y la música, este artista de lo teórico y lo práctico quiso dejar claro que en realidad no importa el qué sino el cómo. Por ejemplo, cómo las formas y los colores afectan en quien las contempla.",
+            "precio":5600.00,
+            "enlace": "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvMjAwMi1rYW5kaW5za3ktZW4tc3UtY29udGV4dG8uanBnIiwicmVzaXplLDIwMDAsMjAwMCJdfQ.qDkIvtJkeUcmHe_2d_n-JBQG0PwR1rWZYbqTydPzdlU.jpg",
+            "corriente":"Expresionismo"
+        },
+        {
+            "nombreObra":"Multi cara",
+            "nombreArtista": "Ricardo Ramírez",
+            "descripcion":"La pintura comparativamente abstracta es el ejemplo característico del uso innovador y audaz de pinceladas gruesas. Las llamativos figuras abstractas de la pintura y la atmósfera de ensueño han intrigado a los amantes del arte durante décadas.",
+            "precio":9099.90,
+            "enlace": "https://artquid-art.imgix.net/12/4/787602.1609142217.1.o1639676972.jpg",
+            "corriente":"Minimalismo"
+        } 
+    ]
+}

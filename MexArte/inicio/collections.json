@@ -1,0 +1,16 @@
+{
+    "collections": [
+        {
+            "name": "Colección 1",
+            "url": "https://estaticos-cdn.elperiodico.com/clip/3aecb3cf-ce6e-4dec-8788-1922ef8b5e01_alta-libre-aspect-ratio_default_0.jpg"
+        },
+        {
+            "name": "Colección 2",
+            "url": "https://estaticos-cdn.elperiodico.com/clip/3aecb3cf-ce6e-4dec-8788-1922ef8b5e01_alta-libre-aspect-ratio_default_0.jpg"
+        },
+        {
+            "name": "Colección 3",
+            "url": "https://estaticos-cdn.elperiodico.com/clip/3aecb3cf-ce6e-4dec-8788-1922ef8b5e01_alta-libre-aspect-ratio_default_0.jpg"
+        }
+    ]
+}

@@ -1,0 +1,323 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Italiana&family=Open+Sans:wght@300&display=swap');
+.header,
+.footer {
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  height: max-content;
+}
+
+.footer {
+  height: max-content;
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo-h,
+.logo-f {
+  color: white;
+  margin: 1%;
+  font-family: 'Italiana', serif;
+}
+
+.logo-h {
+  display: flex;
+  justify-content: start;
+}
+
+.header .icon_menu {
+  color: white;
+  margin-right: 1%;
+}
+.header .icons .icon {
+  color: white;
+  margin-left: 5%;
+}
+
+.header .titulo {
+  color: white;
+  display: flex;
+  font-family: 'Italiana', serif;
+  visibility: hidden;
+}
+
+.footer h6 {
+  color: white;
+}
+
+.header .icons {
+  display: flex;
+  justify-content: end;
+}
+
+.footer .icons-social {
+  display: flex;
+  justify-content: start;
+}
+
+.footer a , .header a{
+  margin: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer p {
+  color: white;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+:root {
+  --login-bg: #f5f5f5;
+  --title-bg: #000000;
+  --button-bg: #ffd060;
+  --light-blue: #0287d9;
+  --image-bg: #000000;
+}
+
+.body {
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  background-image: #ffffff;
+}
+
+.paragraph {
+  font-size: 12px;
+  text-align: center;
+}
+
+.login-container {
+  height: 43.75em;
+  width: 60em;
+  margin: 6em auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.login-info-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding-top: 0.5rem;
+  background-color: var(--login-bg);
+}
+
+.padding {
+  padding: 2.5rem;
+}
+
+.title {
+  font-family: "Italiana", serif;
+  font-size: 2.25rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: var(--title-bg);
+}
+
+.login-info-container > p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25em;
+  margin-top: 1.5em;
+}
+
+.inputs-container {
+  height: 50%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  line-height: 40px;
+}
+
+.input {
+  width: 100%;
+  height: 3.125rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  padding-left: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+.input:hover {
+  border: 2px solid var(--button-bg);
+}
+
+.divbtn {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding-top: 0.5rem;
+  background-color: var(--login-bg);
+}
+
+.btn {
+  width: 95%;
+  letter-spacing: 1px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  background-color: solid var(--button-bg);
+  cursor: pointer;
+  height: 3.125rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.inputs-container p {
+  margin: 0;
+}
+
+.span {
+  color: var(--light-blue);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+select {
+  width: 100%;
+  height: 3.125rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  padding-left: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  border: 2px solid var(--button-bg);
+ }
+
+.warnings {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #da0202c6;
+  padding-top: 20px;
+}
+
+
+.drag-area {
+  border: 8px dashed #ffd060;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+.drag-area.active {
+  border: 2px solid #000000;
+}
+.drag-area .icon {
+  font-size: 100px;
+  color: #000000;
+}
+
+.drag-area header {
+  font-size: 30px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.drag-area span {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+  margin: 10px 0 15px 0;
+}
+
+.drag-area button {
+  width: 95%;
+  letter-spacing: 1px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  /* background-color: solid var(--button-bg); */
+  background-color: #ffd060;
+  cursor: pointer;
+  height: 3.125rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.drag-area img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .footer .icons-social{
+   display: flex;
+   justify-content: center;
+   margin-block-end: 5%;
+  }
+ }
+
+@media screen and (max-width: 1000px) {
+  .login-container {
+    width: 70%;
+    margin-top: 3rem;
+  }
+  .login-info-container {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .image-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .login-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .login-container {
+    height: 90%;
+  }
+
+  .social-login {
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+  }
+
+  .login-info-container > p {
+    margin: 0;
+  }
+}
+
+

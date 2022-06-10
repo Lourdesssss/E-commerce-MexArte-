@@ -1,0 +1,82 @@
+.row-info-art {
+  height: max-content;
+  background-color: #f5f5f5;
+  padding: 4%;
+}
+
+.img-artista {
+  width: 14rem;
+  margin: 2%;
+}
+
+.row-obras-art {
+  height: max-content;
+  padding: 4%;
+}
+
+.h2-obras-art {
+  font-family: "Italiana", serif;
+}
+
+.row-obras-art img {
+  border: 2px solid black;
+  padding: 3px;
+}
+.img-obra-perfil{
+    margin-inline: 3%;
+}
+
+.row-contacto-art .icons-social a {
+  color: black;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.btn {
+  width: 45px;
+  letter-spacing: 1px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffd060;
+  cursor: pointer;
+  height: 45px;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.row-obras-art figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.row-obras-art figure .capa-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-obras-art figure:hover > .capa-text {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media screen and (max-width: 576px) {
+  .row-info-art {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}

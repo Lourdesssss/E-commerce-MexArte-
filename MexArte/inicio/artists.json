@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "idArtist": 1,
+            "name": "Siddhartha",
+            "kindOf": "Pintor",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Siddhartha.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."
+        },
+        {
+            "idArtist": 2,
+            "name": "Yuya",
+            "kindOf": "Escultora",
+            "url": "https://www.show.news/__export/1593526748399/sites/debate/img/2020/06/30/yuya-instagram_crop1593526325091.jpg_423682103.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."        
+        },
+        {
+            "idArtist": 3,
+            "name": "Frida Kahlo",
+            "kindOf": "Pintora",
+            "url": "https://www.hola.com/us/images/0267-11e02064b2a5-d6285404580f-1000/square-480/frida-kahlo.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."
+        },
+        {
+            "idArtist": 4,
+            "name": "Harry Estilos",
+            "kindOf": "Pintor",
+            "url": "https://www.nacionrex.com/__export/1604172278753/sites/debate/img/2020/10/31/harry-styles-cuanto-gana_crop1604170843876.jpg_423682103.jpg",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem quis non officiis? Delectus atque debitis porro quam a maxime ipsum cumque eaque accusantium dolores laudantium, velit, eum corporis necessitatibus."
+        }
+    ]
+}

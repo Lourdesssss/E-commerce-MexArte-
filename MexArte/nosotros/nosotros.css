@@ -1,0 +1,172 @@
+.header,
+.footer {
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  height: max-content;
+}
+
+.footer {
+  height: max-content;
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo-h,
+.logo-f {
+  color: white;
+  margin: 1%;
+  font-family: 'Italiana', serif;
+}
+
+.logo-h {
+  display: flex;
+  justify-content: start;
+}
+
+.header .icon_menu {
+  color: white;
+  margin-right: 1%;
+}
+.header .icons .icon {
+  color: white;
+  margin-left: 5%;
+}
+
+.header .titulo {
+  color: white;
+  display: flex;
+  font-family: 'Italiana', serif;
+  visibility: hidden;
+}
+
+.footer h6 {
+  color: white;
+}
+
+.header .icons {
+  display: flex;
+  justify-content: end;
+}
+
+.footer .icons-social {
+  display: flex;
+  justify-content: start;
+}
+
+.footer a , .header a{
+  margin: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer p {
+  color: white;
+}
+
+/*::::::CSS DE NOSOTROS::::::*/
+
+body{
+  display: block;
+  background-image: url(https://images.pexels.com/photos/6424244/pexels-photo-6424244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: 150vw 150vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: 'Open Sans';
+}
+/*CSS de nosotros en general*/
+.container{
+  padding: 20px 10px ;
+  margin: auto;
+}
+.grupo{
+  color: white;
+  padding: 25px;
+  text-align: justify;
+}
+/*css de los textos*/
+.nosotros__texto{
+  margin-top: 15%;
+  text-align: justify;
+}
+
+/*CSS de quienes somos*/
+.nosotros__somos{
+  font-family: 'Italiana', serif;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.grupo__somos{
+  background: rgb(0, 0, 0, 0.7);
+  margin-top: 15%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  float: left;
+}
+
+/*CSS de misión*/
+.nosotros__mision{
+  font-family: 'Italiana', serif;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.grupo__mision{
+  background: rgb(0, 0, 0, 0.7);
+  margin-top: 15%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+/*CSS de visión*/
+.nosotros__vision{
+  font-family: 'Italiana', serif;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 33px;
+  font-size: 25px;
+}
+.grupo__vision{
+  background: rgb(0, 0, 0, 0.7);
+  margin-top: 15%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+
+/* ::::: Estilo responsive ::::: */
+
+@media screen and (max-width: 990px) {
+  .footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .footer .icons-social{
+   display: flex;
+   justify-content: center;
+   margin-block-end: 5%;
+  }
+  .row__grupo{
+    width: 100%;   
+  }
+  .grupo__mision{
+    width: 100%;
+  }
+  .grupo__vision{
+    width: 100%;
+  }
+ }

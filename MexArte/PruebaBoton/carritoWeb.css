@@ -1,0 +1,147 @@
+*{
+    margin: 0px; /* Estaba en 10, pero luego se desajustan los col y sus acomodos */
+    padding: 0px; /* Estaba en 10 pero luego se desajustan los col y sus acomodos */
+    box-sizing: border-box; 
+    font-size: 18px;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+#h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+h5{
+  text-align: center;
+}
+
+.titulo-principal{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: space-between;
+    padding-top: 2rem;
+    font-family: 'Italiana', serif;
+    margin-bottom: 3.5rem;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  #boton-vaciar{
+    text-align: center;
+  }
+
+  .logo-carrito{
+    height: 100%;
+    font-size: 28px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .card{
+    border: 0ch;
+  }
+
+  .card-body{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+  }
+
+  .btn{
+    border: none;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #ffd060;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+  }
+
+  #boton-vaciar{
+    margin-bottom: 20px;
+  }
+
+  #boton-confirmar{
+    margin-bottom: 20px;
+  }
+
+  button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+
+  .list-group-item{
+      background: #f5f5f5;
+      border: 1px solid rgba(61, 61, 61, 0.05);
+      box-sizing: border-box;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-bottom: 50px;
+  }
+
+  .img-cart{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 20vw;
+    border-radius: 3px;
+  }
+
+  .img-list{
+    height: 12vw;
+    border-radius: 3px;
+  }
+
+  main{
+      margin-bottom: 20vw;
+  }
+
+  aside{
+    margin-top: 20vw;
+    margin-bottom: 10vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  /* Imágen a partir de que la pantalla supera los 426ox mayor que celular */
+  @media screen and (max-width: 426px) {
+    .img-cart{
+      height: 40vw;
+      border-radius: 3px;
+      margin-top: 20px;
+    }
+  
+    .img-list{
+      height: 40vw;
+      border-radius: 3px;
+    }
+
+    .list-group-item{
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    .btn{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+   }

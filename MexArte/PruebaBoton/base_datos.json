@@ -1,0 +1,28 @@
+{
+"baseDatos": [
+    {
+        "id": 1,
+        "nombre": "Patata",
+        "precio": 1,
+        "imagen": "https://estaticos-cdn.elperiodico.com/clip/3aecb3cf-ce6e-4dec-8788-1922ef8b5e01_alta-libre-aspect-ratio_default_0.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Cebolla",
+        "precio": 2.1,
+        "imagen": "https://estaticos-cdn.elperiodico.com/clip/3aecb3cf-ce6e-4dec-8788-1922ef8b5e01_alta-libre-aspect-ratio_default_0.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Calabacin",
+        "precio": 2.1,
+        "imagen": "https://estaticos-cdn.elperiodico.com/clip/3aecb3cf-ce6e-4dec-8788-1922ef8b5e01_alta-libre-aspect-ratio_default_0.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Fresas",
+        "precio": 0.6,
+        "imagen": "https://estaticos-cdn.elperiodico.com/clip/3aecb3cf-ce6e-4dec-8788-1922ef8b5e01_alta-libre-aspect-ratio_default_0.jpg"
+    }
+]
+}
